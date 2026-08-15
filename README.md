@@ -16,3 +16,4 @@ For deployment, push this folder to GitHub and import it into a Next.js host, th
 
 ## Build fix
 This version fixes strict TypeScript errors that caused the original Vercel deployment to fail.
+GEMS OF CARDS
