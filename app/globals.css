@@ -17,3 +17,6 @@ nav{display:flex;gap:18px;align-items:center}nav a{color:var(--muted);font-size:
 
 
 .login-status{margin:4px 0 14px;padding:12px;border-left:2px solid var(--gold);background:rgba(184,154,98,.08);color:var(--light);line-height:1.5}.login-form .btn:disabled{opacity:.65;cursor:wait}.login-form input:disabled{opacity:.7}
+
+
+.install-app{border:1px solid var(--gold);background:linear-gradient(135deg,rgba(184,154,98,.18),rgba(205,211,220,.08));color:var(--light);padding:12px 18px;letter-spacing:.08em;font-weight:700;cursor:pointer;border-radius:10px}.mobile-upload{margin:18px 0;padding:20px;border:1px solid var(--line);background:var(--panel);border-radius:14px}.mobile-upload h3{margin:0 0 12px}.mobile-upload p{color:var(--muted);word-break:break-word}.upload-actions{display:grid;grid-template-columns:1fr 1fr;gap:12px}.upload-actions label{display:flex;align-items:center;justify-content:center;min-height:58px;border:1px solid var(--gold);border-radius:10px;cursor:pointer;font-weight:700;letter-spacing:.05em;text-align:center;padding:10px}.upload-actions input{display:none}@media(max-width:700px){.page{padding-left:16px;padding-right:16px}.formgrid{grid-template-columns:1fr!important}.form{padding:18px}.password-card{padding:20px}.row{gap:8px;flex-wrap:wrap}.upload-actions{grid-template-columns:1fr}.btn{min-height:52px}}
