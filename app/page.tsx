@@ -17,7 +17,7 @@ export default async function Home() {
       <h1>EVERY CARD HAS A STORY.<br/><em>SOME BECOME GEMS.</em></h1>
       <p className="intro">A curated archive of treasured trading cards from sports, anime, manga, gaming and beyond.</p>
       <Link className="btn" href="/collection">EXPLORE COLLECTION</Link>
-    </div><div className="vault"><div className="coin">G</div><p>GEMS OF CARDS</p><span>THE COLLECTOR'S VAULT</span></div></section>
+    </div><div className="vault"><div className="crest"><img src="/gems-of-cards-logo.png" alt="Gems of Cards emblem"/></div><p>GEMS OF CARDS</p><span>THE COLLECTOR'S ROYAL VAULT</span></div></section>
     <section className="stats">
       <div><strong>{cards.length}</strong>CARDS IN THE VAULT</div>
       <div><strong>{new Set(cards.map((x) => x.category)).size}</strong>COLLECTIONS</div>
