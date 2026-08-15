@@ -1,0 +1,1 @@
+import "./globals.css"; export const metadata={title:"Gems of Cards",description:"A personal trading card vault"}; export default function L({children}:{children:React.ReactNode}){return <html lang="en"><body>{children}</body></html>}

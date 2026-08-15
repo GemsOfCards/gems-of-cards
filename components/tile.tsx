@@ -1,0 +1,1 @@
+import Link from "next/link"; import {Card} from "@/lib/types"; export default function Tile({c}:{c:Card}){return <Link className="tile" href={"/cards/"+c.slug}><div className="pic">{c.image_url?<img src={c.image_url} alt={c.name}/>:<span>GEMS<br/>OF CARDS</span>}</div>{c.featured&&<b>◆ FEATURED GEM</b>}<h3>{c.name}</h3><p>{c.category}{c.rarity?" · "+c.rarity:""}</p></Link>}

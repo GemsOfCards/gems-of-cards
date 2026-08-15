@@ -1,0 +1,1 @@
+import Link from "next/link"; export default function Header(){return <header><Link href="/" className="brand"><span className="mark">G</span><span>GEMS OF CARDS</span></Link><nav><Link href="/">HOME</Link><Link href="/collection">COLLECTIONS</Link><Link href="/featured">FEATURED GEMS</Link><Link className="goldlink" href="/admin">COLLECTION MANAGER</Link></nav></header>}
