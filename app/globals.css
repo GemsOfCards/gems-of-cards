@@ -14,3 +14,6 @@ nav{display:flex;gap:18px;align-items:center}nav a{color:var(--muted);font-size:
 
 
 .password-card{margin:48px 0;padding:32px;border:1px solid var(--line);background:linear-gradient(135deg,rgba(205,211,220,.05),transparent 45%),linear-gradient(315deg,rgba(184,154,98,.08),transparent 50%),var(--panel)}.password-card h2{margin-top:8px}.password-help{color:var(--muted);line-height:1.7;max-width:680px}.password-form{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-items:end;margin-top:22px}.password-form .btn{min-height:46px}.password-status{margin:18px 0 0;padding:12px;border-left:2px solid var(--gold);color:var(--light);background:rgba(184,154,98,.06)}@media(max-width:800px){.password-form{grid-template-columns:1fr}}
+
+
+.login-status{margin:4px 0 14px;padding:12px;border-left:2px solid var(--gold);background:rgba(184,154,98,.08);color:var(--light);line-height:1.5}.login-form .btn:disabled{opacity:.65;cursor:wait}.login-form input:disabled{opacity:.7}
