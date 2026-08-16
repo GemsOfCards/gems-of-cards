@@ -50,7 +50,9 @@ function refreshPages() {
 export async function add(f: FormData) {
   const s = await requireUser();
   const name = String(f.get("name"));
-  const image = await upload(s, f.get("image") as File);
+  const imageFiles = f.getAll("image") as File[];
+const selectedImage = imageFiles.find((file) => file && file.size > 0);
+const image = selectedImage ? await upload(s, selectedImage) : null;
   const { error } = await s.from("cards").insert({ ...cardData(f, image), slug: slug(name) });
   if (error) throw new Error(error.message);
   refreshPages();
